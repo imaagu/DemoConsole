@@ -1,0 +1,7 @@
+{
+  "ApiUrl": "https://api23.searcheducation.com:4123/practice/contact/",
+  "userlogin": "login/",
+  "league": "admin_gfx/league/",
+  "match": "admin_gfx/match/",
+  "pool": "admin_gfx/pool/"
+}

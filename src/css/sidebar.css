@@ -1,0 +1,65 @@
+.c-sidebar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 0 0 256px;
+  flex: 0 0 256px;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-order: -1;
+  order: -1;
+  width: 256px;
+  padding: 0;
+  box-shadow: none;
+  color: #fff;
+  background: #5c0a5c;
+  transition: box-shadow 0.3s 0.15s, margin-left 0.3s, margin-right 0.3s,
+    width 0.3s, z-index 0s ease 0.3s, -webkit-transform 0.3s;
+  transition: box-shadow 0.3s 0.15s, transform 0.3s, margin-left 0.3s,
+    margin-right 0.3s, width 0.3s, z-index 0s ease 0.3s;
+  transition: box-shadow 0.3s 0.15s, transform 0.3s, margin-left 0.3s,
+    margin-right 0.3s, width 0.3s, z-index 0s ease 0.3s, -webkit-transform 0.3s;
+}
+
+.c-sidebar-nav {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1;
+  flex: 1;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0;
+  margin-bottom: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  list-style: none;
+}
+
+.c-sidebar-nav-item {
+  width: inherit;
+}
+
+.c-sidebar .c-sidebar-nav-link,
+.c-sidebar .c-sidebar-nav-dropdown-toggle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: medium;
+  justify-content: center;
+  font-weight: bolder;
+  background: 0 0;
+}
+
+.c-sidebar-nav-item:hover {
+  background: #730073;
+}
+
+@media (hover: hover), not all {
+  .c-sidebar .c-sidebar-nav-link:hover,
+  .c-sidebar .c-sidebar-nav-dropdown-toggle:hover {
+    color: #fff;
+    background: #730073;
+  }
+}
+
+.link-active {
+  background: #730073;
+}

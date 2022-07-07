@@ -1,0 +1,10 @@
+.cc-footer {
+  color: #4f5d73;
+  background: linear-gradient(to right, #bb3ce6, #610580);
+  border-top: 1px solid #d8dbe0;
+  height: 50px;
+  color: white;
+  padding: 1rem 1rem;
+  text-align: center;
+  justify-content: center;
+}

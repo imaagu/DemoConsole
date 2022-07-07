@@ -1,0 +1,21 @@
+.md-container {
+  background-color: white;
+}
+
+.box-content {
+  padding: 0px 20px;
+}
+
+.box-content-left {
+  text-align: center;
+  border: 1px solid #7c6385;
+  padding: 10px 10px;
+  font-weight: 700;
+  background-color: #f3defa;
+}
+
+.box-content-right {
+  text-align: center;
+  border: 1px solid #cfcecc;
+  padding: 10px 10px;
+}
